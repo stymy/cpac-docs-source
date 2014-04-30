@@ -8,6 +8,6 @@ exclusionSubjectList  :  None
 
 siteList  :  Brown
 
-scanParametersCSV  :  /home/user/path/to/scan_parameters_abide.csv
+scanParametersCSV  :  /home/user/path/to/scan_parameters_adhd.csv
 
 outputSubjectListLocation  :   /home/user/path/to/subjectlistoutput/

@@ -6,8 +6,8 @@ subjectList  :  None
 
 exclusionSubjectList  :  None 
 
-siteList  :  AnnArbor_a
+siteList  :  site_1
 
-scanParametersCSV  :  /home/user/path/to/scan_parameters_fcon.csv
+scanParametersCSV  :  /home/user/path/to/scan_parameters_nki.csv
 
 outputSubjectListLocation  :   /home/user/path/to/subjectlistoutput/
