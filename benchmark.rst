@@ -21,7 +21,7 @@ Make sure you have also installed all of the dependencies and downloaded the req
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The CPAC Benchmark Package is split into two pieces:
 
-* Raw data and configuration files needed to process said data (`click here to download <http://www.nitrc.org/frs/shownotes.php?release_id=2361>`_)
+* Raw data and configuration files needed to process said data (`click here to download <https://www.nitrc.org/frs/downloadlink.php/5881>`_)
 * Precomputed group analysis results from the same data set, group models, and comparison scripts (coming soon)
 
 Once downloaded, these packages should be extracted (using the command ``tar -xzvf <filename>``) and their contents combined into a single directory with the following structure.
