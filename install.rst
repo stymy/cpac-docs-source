@@ -63,7 +63,7 @@ The following instructions provide additional information about the peculiaritie
 
 Install Python Dependencies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Python is the glue (Bloom, 2012) that ties all the pieces of CPAC together. Though many computers come with Python pre-installed, CPAC relies on a number of special-purpose packages, which are listed below. Packages with an asterisk (*) can be installed through `setuptools <https://pythonhosted.org/setuptools/easy_install.html>`_ by running the command ``easy_install package`` (for example, ``easy_install networkx``).
+Python is the glue (Bloom, 2012) that ties all the pieces of CPAC together. Please ensure that you are using Python 2.7 and above, but not Python 3 (since it is not backwards-compatible). Though many computers come with Python pre-installed, CPAC relies on a number of special-purpose packages, which are listed below. Packages with an asterisk (*) can be installed through `setuptools <https://pythonhosted.org/setuptools/easy_install.html>`_ by running the command ``easy_install package`` (for example, ``easy_install networkx``).
 
 * `SciPy and NumPy <http://www.scipy.org/install.html>`_ 
 * `NetworkX <http://networkx.lanl.gov/>`_ * (``easy_install networkx``)
@@ -79,9 +79,7 @@ Python is the glue (Bloom, 2012) that ties all the pieces of CPAC together. Thou
 
 .. _tip: 
 
-**TIP**: It is possible to install many of these packages (all but PyLockfile) automatically by using `Enthought Canopy <https://www.enthought.com/products/canopy/>`_. If you chose to use Canopy, you must download the **64-bit version**
-
-It is possible to install many of these packages (all but PyLockfile) automatically by using `Enthought Canopy <https://www.enthought.com/products/canopy/>`_. If you chose to use Canopy, you must download the **64-bit version**. Likewise, `Anaconda <https://store.continuum.io/cshop/anaconda/>`_ is an alternative Python distribution which allows you to install the above packages with the `conda command <http://docs.continuum.io/anaconda/faq.html#install-packages>`_.
+**TIP**: It is possible to install many of these packages (all but PyLockfile) automatically by using `Enthought Canopy <https://www.enthought.com/products/canopy/>`_. If you chose to use Canopy, you must download the **64-bit version**. Likewise, `Anaconda <https://store.continuum.io/cshop/anaconda/>`_ is an alternative Python distribution which allows you to install the above packages with the `conda command <http://docs.continuum.io/anaconda/faq.html#install-packages>`_.
     ex: ``conda install -c https://conda.binstar.org/travis wxpython``
 
 Install Nibabel and Nipype
@@ -198,7 +196,7 @@ During preprocessing and analysis, CPAC utilizes many of the standard brain atla
 * Binarized tissue prior probability maps (used during :doc:`tissue segmentation </anat>`)
 * Symmetric versions of the MNI152 brain template and masks (used when calculating :doc:`VMHC </vmhc>`)
 
-These files are included in the CPAC Image Resources package, available `for download here <http://fcon_1000.projects.nitrc.org/indi/cpac_resources.zip>`_. As above, this file can be unpacked by running the ``tar -xzvf`` command. 
+These files are included in the CPAC Image Resources package, available `for download here <http://fcon_1000.projects.nitrc.org/indi/cpac_resources.tgz>`_. As above, this file can be unpacked by running the ``tar -xzvf`` command. 
 
 Included in the package is a ``install_resources.sh`` script that when run will copy the resource files to your FSL directory (which is where CPAC looks for them by default). To run this script, navigate to the CPAC Image Resources directory and run the command ``sudo bash install_resources.sh``.
 
