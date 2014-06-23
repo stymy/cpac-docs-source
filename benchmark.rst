@@ -28,17 +28,9 @@ Once downloaded, these packages should be extracted (using the command ``tar -xz
 
 .. figure:: /_images/file_structure.png
 
-3) Configure CPAC
-^^^^^^^^^^^^^^^^^
-Included in the CPAC Benchmark Package is a ``configure_cpac_benchmark.sh`` script that when run will automatically configure CPAC to run on your system. More specifically, it will edit the included configuration files to match the location of the CPAC Benchmark Package on your computer.
-
-To run this script, navigate in terminal to the ``/scripts`` directory of the CPAC Benchmark Package and enter the command ``bash configure_cpac_benchmark.sh``. You will be asked to enter the path to the main CPAC Benchmark Package folder.
-
-.. figure:: /_images/config_script.png
-
-4) Generate Subject Lists
+3) Generate Subject Lists
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-Open the CPAC GUI and click to create a new Subject List. In the Subject List Configuration window, select Load and navigate to the ``/configs`` directory of the CPAC Benchmark Package. Select ``benchmark_data_config.yml`` and hit OK. This will load load the pre-configured settings.
+Open the CPAC GUI and click to create a new Subject List. In the Subject List Configuration window, select Load and navigate to the ``/settings/configs`` directory of the CPAC Benchmark Package. Select ``benchmark_data_config.yml`` and hit OK. This will load load the pre-configured settings.
 
 .. figure:: /_images/benchmark_data_config.png
 
